@@ -360,7 +360,9 @@ def load_pdb_data(args,bs):
 
             # seq = torch.tensor(''.join(df_1['auth_comp_id_code'].tolist()))
             
-            data = torch_geometric.data.Data(x=x, y=y, edge_index=edge_index, edge_attr=edge_weight,name=pdb_name_s+'_'+pdb_name_chain,uniprot_id=df_dbref['pdbx_db_accession'].unique().tolist())
+            df_dbref_1 = df_dbref[df_dbref['pdbx_strand_id']==pdb_name_chain]
+            
+            data = torch_geometric.data.Data(x=x, y=y, edge_index=edge_index, edge_attr=edge_weight,name=pdb_name_s+'_'+pdb_name_chain,uniprot_id=df_dbref_1['pdbx_db_accession'].unique().tolist())
             # data = Data(x=x, y=y, edge_index=edge_index,name=target_pdb_list_s)
 
             # data.name = pdb_id_chain
