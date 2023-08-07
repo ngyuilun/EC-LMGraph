@@ -4,7 +4,7 @@ Enzyme function and catalytic site prediction with GCN-based deep learning frame
 #### Google Colab Notebook for EC number prediction and catalytic site prediction
 The EC-LMGraph is now available on Google Colab Notebook for online prediction.
 
-[Google Colab Notebook](https://colab.research.google.com/drive/1wt1Ky40y50qO3p4OkkZoP5jM_x4IQ6A1#scrollTo=roo2SmkFp3F_)
+[Google Colab Notebook](https://colab.research.google.com/drive/1wt1Ky40y50qO3p4OkkZoP5jM_x4IQ6A1)
 
 ## Dependencies
 EC-LMGraph is based on python 3.10.9 and PyTorch-2.0.0
