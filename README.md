@@ -22,6 +22,7 @@ pip install sentencepiece
 pip install captum==0.2.0
 pip install openpyxl==3.0.9
 pip install matplotlib
+pip install pandas==2.0.0
 
 ```
 
