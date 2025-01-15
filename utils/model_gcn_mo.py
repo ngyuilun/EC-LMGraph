@@ -4,11 +4,7 @@
 import torch
 import torch_geometric
 import torch.nn.functional as F
-
 from torch_geometric.nn import GCNConv, LEConv, global_mean_pool, ClusterGCNConv
-
-
-
 
 class LE_ClusterGCN_l1_fc2_lm(torch.nn.Module):
 

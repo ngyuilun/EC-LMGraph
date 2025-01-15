@@ -2,33 +2,21 @@
 import os
 import json
 import sys
-    
 import pickle
-
 import pandas as pd
-
 import argparse
 from Bio import SwissProt
-
 from argparse import ArgumentParser
-
 import torch
 import torch_geometric
 import torchvision
 from torch_geometric.loader import DataLoader
-
-
 from Bio.Align import PairwiseAligner
-
 from transformers import T5Tokenizer, T5EncoderModel, AutoModel
 from tqdm import tqdm
 import datetime
 from collections import Counter
-
-
-
 import wget
-
 from torch_geometric.explain import Explainer, Explanation
 from torch_geometric.explain.algorithm import CaptumExplainer
 from torch_geometric.explain.config import (
@@ -48,15 +36,10 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import minmax_scale
 import math
 import numpy as np
-
 from sklearn import preprocessing
 import datetime
 os.umask(0)
 from sklearn.preprocessing import MinMaxScaler
-
-
-# import sys
-# sys.path.append(".")
 from utils.model_gcn_mo import *
 
 
@@ -1216,7 +1199,7 @@ def download_uniprot_record(uniprot_id_s):
 
 
 
-if 1:
+if __name__ == "__main__":
 
     datetime_st = datetime.datetime.now()
 
@@ -1245,18 +1228,12 @@ if 1:
 
 
     datetime_s1 = datetime.datetime.now()
-
-    # d_score = {}
-    # l_path_target_1 = [l_path_target_1[1]]
-
-
     d_model_datetime = {}
     
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
     model = torch.load('./models/model.pt', map_location=device)
-    # model1 = torch.nn.DataParallel(model, device_ids = [0,1])
     model.eval()
 
     

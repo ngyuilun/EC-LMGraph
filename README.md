@@ -74,6 +74,6 @@ Prediction by structural illustration: 1a50_B_mcsa/uniprot_sites.cxc
 
 <img src="figures/1a50_B_mcsa.png">
 
-* This cxc files can be downloaded at /figures/1a50_B_mcsa.cxc
+* This cxc files can be downloaded at ./figures/1a50_B_mcsa.cxc
 
 
