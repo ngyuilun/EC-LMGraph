@@ -7,14 +7,14 @@ The EC-LMGraph is now available on Google Colab Notebook for online prediction.
 [Google Colab Notebook](https://colab.research.google.com/drive/1wt1Ky40y50qO3p4OkkZoP5jM_x4IQ6A1)
 
 ## Dependencies
-EC-LMGraph is based on python 3.10.9 and PyTorch-2.0.0
+EC-LMGraph requires python=3.11 and PyTorch-2.6.0
 
 Use the following code to install the required packages:
 ```
-pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
+pip install torch==2.6.0+cu118 torchvision==0.21.0+cu118 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu118
 
 pip install torch_geometric==2.3.0
-pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.0.0+cu118.html
+pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.6.0+cu118.html
 pip install wget==3.2
 pip install biopython==1.81
 pip install transformers==4.28.1
