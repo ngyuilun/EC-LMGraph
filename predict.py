@@ -419,11 +419,11 @@ if __name__ == "__main__":
 
 
     parser = ArgumentParser()
-    parser.add_argument("-s", "--task_name", dest="task_name",default='example')
-    parser.add_argument("-t", "--target_type", dest="target_type",default='cif',help='cif or af2')
+    parser.add_argument("-s", "--task_name", dest="task_name",default='Task 1')
+    parser.add_argument("-t", "--target_type", dest="target_type",default='af2',help='cif or af2')
     
 
-    if '-f' in sys.argv or '--ip=127.0.0.1' in sys.argv:
+    if '-f' in sys.argv or '--f' in [q[:3] for q in sys.argv]:
         args = parser.parse_args(args=[])
     else:
         args = parser.parse_args()
