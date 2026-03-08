@@ -31,12 +31,12 @@ pip install numpy==1.26.0
 ## Pretrained models and UniProt Annotations
 
 Pretrained models are available here: 
-[Models](https://www.dropbox.com/scl/fi/hrqyjpcyk9gw9u66knvve/model.pt?rlkey=gye2w77mxdwk7absvdz2vz28u&dl=0)
+[Models](https://www.dropbox.com/scl/fi/uh9zxbvz79psmulyhpo8c/model.pt?rlkey=2lsm80s114twxebdgl8htq5tf&dl=0)
 
-1. Move the models to the /models/.
+1. Move the model file to the /models/.
 
 An aggregated version of UniProt catalytic sites annotations are available here: 
-[UniProt Annotations](https://www.dropbox.com/scl/fi/h7xs7oonc8wplrwbl4kfv/uniprot_sites.pkl?rlkey=45lz69sj01i696345yx5u6361&dl=0)
+[UniProt Annotations](https://www.dropbox.com/scl/fi/amiy91vrkw6rngnqdwd1m/uniprot_sites.pkl?rlkey=sy4nsakxlq126g233rrvsosko&dl=0)
 
 1. Move the UniProt Annotations to the /excel/uniprot_sites.pkl
 
