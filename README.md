@@ -78,3 +78,11 @@ Prediction by structural illustration: 1a50_B_mcsa/uniprot_sites.cxc
 * This cxc files can be downloaded at ./figures/1a50_B_mcsa.cxc
 
 
+## Large-scale Prediction Results and Datasets
+The datasets containing large-scale predicted enzymatic functions and catalytic sites can be downloaded below.
+
+* [MCSA.zip](https://www.dropbox.com/scl/fi/r62ghjirxbawvajzu6l65/MCSA.zip?rlkey=ihsbly493h413engy5a0f6czd&dl=0)
+* [Parkinson.zip](https://www.dropbox.com/scl/fi/2lv5pqa96cx5l2mfv4a43/Parkinson.zip?rlkey=y2490xyhuiisj9oxo1yz8tcp4&dl=0)
+* [AF-HUMAN-0.zip](https://www.dropbox.com/scl/fi/wrjlbold67o0vs3v2yacf/AF-HUMAN-0.zip?rlkey=zmtm829pnymb378eluxk3pfx8&dl=0)
+* [AF-HUMAN-1.zip](https://www.dropbox.com/scl/fi/z76n64ywzu387i4fdx1uk/AF-HUMAN-1.zip?rlkey=paibldvdfsojw2qzn2tkz74n6&dl=0)
+* [AF-HUMAN-2.zip](https://www.dropbox.com/scl/fi/3u2dkh2iv5m7m1oenjdcn/AF-HUMAN-2.zip?rlkey=ovj9zirovz7w0sz1cofr5m6x5&dl=0)
